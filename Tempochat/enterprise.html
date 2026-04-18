@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>TempoChat Enterprise</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css">
+  <link rel="stylesheet" href="../css/base.css">
+  <link rel="stylesheet" href="../css/payment.css" />
+</head>
+<body style="background: url('../img/bgpage-account.jpg') center/cover no-repeat fixed;">
+
+<nav class="navbar navbar-expand-lg rounded-bottom">
+    <div class="container-fluid">
+        <a class="navbar-brand d-flex align-items-center" href="index.html">
+            <img src="../img/logo.jpg" alt="TempoChat" width="32" height="32" class="me-2">
+            TempoChat
+        </a>
+
+        <button class="navbar-toggler navbar-dark" type="button" data-bs-toggle="collapse"
+            data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <li class="nav-item"><a class="nav-link" href="index.html"><i class="fas fa-house me-1 d-inline-block d-md-none"></i> Overview</a></li>
+                <li class="nav-item"><a class="nav-link" href="pricing.html"><i class="fas fa-tag me-1 d-inline-block d-md-none"></i> Pricing Plan</a></li>
+                <li class="nav-item"><a class="nav-link" href="about.html"><i class="fas fa-info-circle me-1 d-inline-block d-md-none"></i> About TempoChat</a></li>
+                <li class="nav-item"><a class="nav-link" href="index.html#footer"><i class="fas fa-envelope me-1 d-inline-block d-md-none"></i> Contact Us</a></li>
+            </ul>
+
+            <div class="d-flex align-items-center">
+                <a class="nav-link me-3" href="#"><i class="fas fa-code me-1"></i>For Developers ↗</a>
+                <a class="btn btn-dark px-4 py-2" href="https://github.com/zonetecde/random-github-repo" target="_blank" rel="noreferrer" style="margin-right: 10px;"><i class="fab fa-github me-2"></i>Source Code</a>
+                <div class="dropdown profile-dropdown">
+                    <a class="btn btn-light dropdown-toggle d-flex align-items-center text-dark" href="#" role="button" id="profileDropdown" data-bs-toggle="dropdown" aria-expanded="false">
+                        <span class="profile-avatar"><i class="fas fa-user"></i></span>
+                        <span class="profile-name ms-2 d-none d-md-inline">User0</span>
+                    </a>
+                    <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="profileDropdown">
+                        <li><a class="dropdown-item" href="account.html"><i class="fas fa-user-circle me-2"></i>Account</a></li>
+                        <li><a class="dropdown-item" href="setting.html"><i class="fas fa-cog me-2"></i>Setting</a></li>
+                        <li><hr class="dropdown-divider"></li>
+                        <li><a class="dropdown-item" href="auth.html"><i class="fas fa-sign-in-alt me-2"></i>Sign Up/Sign In</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</nav>
+
+  <main class="page-wrapper" style="padding-top: 80px;">
+    <div class="container py-5 position-relative">
+      <section class="payment-card mx-auto">
+        <div class="payment-header mb-4">
+          <h1><i class="fas fa-building me-2"></i>Enterprise contact</h1>
+          <p>Request a personalized TempoChat Enterprise package with unlimited storage, compliance controls, and dedicated support.</p>
+        </div>
+
+        <div class="row g-4">
+          <div class="col-lg-7">
+            <div class="checkout-form">
+              <div class="form-heading mb-3">
+                <h2>Contact information</h2>
+                <p>Tell us about your organization and we'll get back to you within 24 hours.</p>
+              </div>
+
+              <div class="payment-form">
+                <div class="form-group">
+                  <label class="form-label">Company name</label>
+                  <input type="text" class="form-control" placeholder="Your company">
+                </div>
+
+                <div class="form-group">
+                  <label class="form-label">Work email</label>
+                  <input type="email" class="form-control" placeholder="you@company.com">
+                </div>
+
+                <div class="form-group">
+                  <label class="form-label">Full name</label>
+                  <input type="text" class="form-control" placeholder="John Doe">
+                </div>
+
+                <div class="form-group">
+                  <label class="form-label">Number of users</label>
+                  <select class="form-control">
+                    <option>10-50 users</option>
+                    <option>51-200 users</option>
+                    <option>201-500 users</option>
+                    <option>500+ users</option>
+                  </select>
+                </div>
+
+                <div class="form-group">
+                  <label class="form-label">Message (optional)</label>
+                  <textarea class="form-control" rows="3" placeholder="Tell us about your needs..."></textarea>
+                </div>
+
+                <button class="btn-submit">Request Quote</button>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-5">
+            <div class="summary-panel">
+              <div class="summary-header">
+                <p>Enterprise features</p>
+              </div>
+
+              <div class="summary-item">
+                <h3>What's included</h3>
+                <ul class="feature-list" style="list-style: none; padding: 0; margin: 0;">
+                  <li style="margin-bottom: 8px;"><i class="fas fa-check me-2" style="color: var(--color-success);"></i>Unlimited message history</li>
+                  <li style="margin-bottom: 8px;"><i class="fas fa-check me-2" style="color: var(--color-success);"></i>Advanced compliance & audit logs</li>
+                  <li style="margin-bottom: 8px;"><i class="fas fa-check me-2" style="color: var(--color-success);"></i>Priority 24/7 support</li>
+                  <li style="margin-bottom: 8px;"><i class="fas fa-check me-2" style="color: var(--color-success);"></i>Custom integrations</li>
+                  <li style="margin-bottom: 8px;"><i class="fas fa-check me-2" style="color: var(--color-success);"></i>Dedicated account manager</li>
+                </ul>
+              </div>
+
+              <div class="summary-list">
+                <div class="summary-row">
+                  <span>Starting at</span>
+                  <strong style="font-size: 1.25rem; color: var(--color-primary);">Custom pricing</strong>
+                </div>
+              </div>
+
+              <p class="summary-note">Volume discounts available for organizations with 500+ users.</p>
+            </div>
+          </div>
+        </div>
+      </section>
+    </div>
+  </main>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

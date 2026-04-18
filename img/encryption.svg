@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#f8f9fa"/>
+      <stop offset="100%" style="stop-color:#e9ecef"/>
+    </linearGradient>
+    <linearGradient id="shield" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#4dabf7"/>
+      <stop offset="100%" style="stop-color:#1971c2"/>
+    </linearGradient>
+  </defs>
+  <rect width="400" height="300" fill="url(#bg)" rx="15"/>
+  <polygon points="200,40 320,80 320,180 200,260 80,180 80,80" fill="#4dabf7" opacity="0.2"/>
+  <polygon points="200,60 300,90 300,170 200,235 100,170 100,90" fill="url(#shield)"/>
+  <circle cx="200" cy="140" r="25" fill="#f8f9fa"/>
+  <circle cx="200" cy="140" r="18" fill="#1971c2"/>
+  <rect x="192" y="140" width="16" height="35" fill="#f8f9fa" rx="2"/>
+  <rect x="192" y="175" width="16" height="8" fill="#f8f9fa" rx="2"/>
+  <circle cx="200" cy="250" r="120" fill="#4dabf7" opacity="0.15"/>
+  <text x="200" y="290" text-anchor="middle" fill="#495057" font-family="Arial" font-size="14" font-weight="600">ENCRYPTED</text>
+</svg>
